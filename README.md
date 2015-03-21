@@ -10,9 +10,9 @@ Download it from the [Chrome Web Store](http://goo.gl/6ExxFO).
 
 ## What Does It Do?
 
-YouTube scrolls down the page instead of pausing the video when you hit spacebar. This Chrome extension makes sure that the video pauses and no annoying scrolling takes place.
+[![Video](http://cl.ly/aJjm/shot.png)](https://www.youtube.com/watch?v=XGUKRdMrUrs&feature=youtu.be)
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/XGUKRdMrUrs" frameborder="0" allowfullscreen></iframe>
+YouTube scrolls down the page instead of pausing the video when you hit spacebar. This Chrome extension makes sure that the video pauses and no annoying scrolling takes place.
 
 ## It Stopped Working
 
