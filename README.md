@@ -1,6 +1,6 @@
 ## [YouTube Pause](http://goo.gl/6ExxFO)
 
-No more scrolling down the page when you hit space bar on Youtube.
+No more scrolling down the page when you hit spacebar expecting to pause a YouTube video.
 
 [![MacDown logo](https://raw.githubusercontent.com/nishanths/youtube-pause-chrome/master/icons/icon128.png)](http://goo.gl/6ExxFO)
 
@@ -14,7 +14,7 @@ Download it from the [Chrome Web Store](http://goo.gl/6ExxFO).
 
 YouTube scrolls down the page instead of pausing the video when you hit spacebar. This Chrome extension makes sure that the video pauses and no annoying scrolling takes place.
 
-## It Stopped Working
+## It Stopped Working?
 
 Please let me know [here](https://github.com/nishanths/youtube-pause-chrome/issues) or [by email](nishanth.gerrard@gmail.com).
 
