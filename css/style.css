@@ -182,7 +182,7 @@ div.container a.button:hover {
 
 footer {
 	color: #777;
-	padding: 3em;
+	padding: 0 0 3em 0;
 	position: absolute;
 	width: 520px;
 	max-width: 540px;
@@ -311,5 +311,6 @@ footer .spacer::before {
 	footer {
 		position: relative;
 		top: 100%;
+		padding: 0 !important;
 	}
 }
