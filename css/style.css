@@ -1,0 +1,315 @@
+/*! Font imports */
+
+@import url("http://fonts.googleapis.com/css?family=Montserrat:400");
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */html{font-family:sans-serif;-ms-text-size-adjust:100%;-webkit-text-size-adjust:100%}body{margin:0}article,aside,details,figcaption,figure,footer,header,hgroup,main,menu,nav,section,summary{display:block}audio,canvas,progress,video{display:inline-block;vertical-align:baseline}audio:not([controls]){display:none;height:0}[hidden],template{display:none}a{background-color:transparent}a:active,a:hover{outline:0}abbr[title]{border-bottom:1px dotted}b,strong{font-weight:700}dfn{font-style:italic}h1{font-size:2em;margin:.67em 0}mark{background:#ff0;color:#000}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sup{top:-.5em}sub{bottom:-.25em}img{border:0}svg:not(:root){overflow:hidden}figure{margin:1em 40px}hr{-moz-box-sizing:content-box;box-sizing:content-box;height:0}pre{overflow:auto}code,kbd,pre,samp{font-family:monospace,monospace;font-size:1em}button,input,optgroup,select,textarea{color:inherit;font:inherit;margin:0}button{overflow:visible}button,select{text-transform:none}button,html input[type=button],input[type=reset],input[type=submit]{-webkit-appearance:button;cursor:pointer}button[disabled],html input[disabled]{cursor:default}button::-moz-focus-inner,input::-moz-focus-inner{border:0;padding:0}input{line-height:normal}input[type=checkbox],input[type=radio]{box-sizing:border-box;padding:0}input[type=number]::-webkit-inner-spin-button,input[type=number]::-webkit-outer-spin-button{height:auto}input[type=search]{-webkit-appearance:textfield;-moz-box-sizing:content-box;-webkit-box-sizing:content-box;box-sizing:content-box}input[type=search]::-webkit-search-cancel-button,input[type=search]::-webkit-search-decoration{-webkit-appearance:none}fieldset{border:1px solid silver;margin:0 2px;padding:.35em .625em .75em}legend{border:0;padding:0}textarea{overflow:auto}optgroup{font-weight:700}table{border-collapse:collapse;border-spacing:0}td,th{padding:0}
+
+/*
+==============================================
+CSS3 ANIMATION CHEAT SHEET
+==============================================
+
+Made by Justin Aguilar
+
+www.justinaguilar.com/animations/
+
+Questions, comments, concerns, love letters:
+justin@justinaguilar.com
+==============================================
+*/
+
+/*
+==============================================
+pullDown
+==============================================
+*/
+
+.pullDown{
+	animation-name: pullDown;
+	-webkit-animation-name: pullDown;	
+
+	animation-duration: 1.5s;	
+	-webkit-animation-duration: 1.5s;
+
+	animation-timing-function: ease-out;	
+	-webkit-animation-timing-function: ease-out;	
+
+	transform-origin: 50% 0%;
+	-ms-transform-origin: 50% 0%;
+	-webkit-transform-origin: 50% 0%; 		
+}
+
+@keyframes pullDown {
+	0% {
+		transform: scaleY(0.1);
+	}
+	40% {
+		transform: scaleY(1.02);
+	}
+	60% {
+		transform: scaleY(0.98);
+	}
+	80% {
+		transform: scaleY(1.01);
+	}
+	100% {
+		transform: scaleY(0.98);
+	}				
+	80% {
+		transform: scaleY(1.01);
+	}
+	100% {
+		transform: scaleY(1);
+	}							
+}
+
+@-webkit-keyframes pullDown {
+	0% {
+		-webkit-transform: scaleY(0.1);
+	}
+	40% {
+		-webkit-transform: scaleY(1.02);
+	}
+	60% {
+		-webkit-transform: scaleY(0.98);
+	}
+	80% {
+		-webkit-transform: scaleY(1.01);
+	}
+	100% {
+		-webkit-transform: scaleY(0.98);
+	}				
+	80% {
+		-webkit-transform: scaleY(1.01);
+	}
+	100% {
+		-webkit-transform: scaleY(1);
+	}		
+}
+
+/*! style.css */
+
+html {
+	height: 100%;
+}
+
+body {
+	font: 13px "Montserrat", "Avenir Next", "Helvetica Neue", "Helvetica", Arial, sans-serif;
+	font-weight: 400;
+	color: #222;
+	background-color: #fff;
+	letter-spacing: 0.4px;
+	line-height: 1.2;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+div.container {
+	position: absolute;
+	max-width: 480px;
+	width: 400px;
+	top: 15%;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+div.container p.large {
+	max-width: 400px;
+	font-size: 1.5em;
+	margin-bottom: 55px;
+	line-height: 1.5;
+}
+
+.light {
+	color: #777 !important;
+}
+
+div.container p.small {
+	color: #777;
+	margin-top: 65px;
+	transition: visibility 0.5s ease;
+}
+
+div.container a {
+	color: #000;
+	border-bottom: 1px solid #000
+}
+
+div.container p.large:hover ~ div.container p.small {
+	visibility: hidden;
+}
+
+div.container div.img {
+	background-image: url("../img/space.png");
+	background-position: center; 
+	height: 100px;
+	background-size: contain;
+	width: 100%;
+	left: 0;
+	right: 0;
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	color: #777;
+	transition: color 0.25s ease-in-out;
+}
+
+a:hover {
+	color: #222;
+}
+
+div.container a.button {
+	border-radius: 40px;
+	color: white;
+	border: 1px solid #20c05c;
+	background-color: #20c05c;
+	padding: 8px 28px;
+	cursor: pointer;
+	font-size: 1.15em;
+	transition: background 0.35s ease, border 0.35s ease;	
+}
+
+div.container a.button:hover {
+	background-color: #1CAC52;
+	border-color: #1CAC52;
+}
+
+footer {
+	color: #777;
+	padding: 3em;
+	position: absolute;
+	width: 520px;
+	max-width: 540px;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	margin: 0 auto;
+	text-align: center;
+}
+
+footer .ion {
+	font-size: 1.4em;
+}
+
+footer .spacer {
+	padding: 0 3px;
+}
+
+footer .spacer::before {
+	content: "|";
+}
+
+#remind, #donate {
+	visibility: hidden;
+}
+
+#remind {
+	display: none;
+}
+
+/*! responsive styles */
+
+@media screen and (max-width: 640px) {
+	div.container {
+		width: 320px;
+	}
+
+	footer {
+		width: 320px;
+	}
+
+	footer .spacer::before {
+		content: "";
+	}
+
+	footer .spacer {
+		display: block;
+		padding: 2px 0;
+	}
+
+	footer a {
+		display: block;
+	}
+
+	footer .switcher {
+		display: none;
+	}
+
+	footer .ion {
+		padding-top: 6px;
+	}
+
+	div.container p.small {
+		margin-top: 80px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 13px;
+	}
+
+	div.container div.img {
+		height: 90px;
+	}
+
+	div.container {
+		width: 300px;
+		top: 10%;
+	}
+
+	div.container a.button {
+		padding: 8px 23px;
+	}
+
+	footer {
+		width: 280px;
+		padding: 2em;
+	}
+
+	footer .ion {
+		font-size: 26px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	div.container {
+		width: 260px;
+	}
+
+	div.container {
+		width: 300px;
+		top: 7%;
+	}
+
+	footer {
+		width: 220px;
+	}
+}
+
+@media screen and (max-width: 220px) {
+	div.container {
+		width: 200px;
+	}
+
+	footer {
+		width: 180px;
+	}
+}
+
+@media screen and (max-height: 480px) {
+	div.container {
+		top: 7%;
+	}
+
+	footer {
+		position: relative;
+		top: 100%;
+	}
+}
