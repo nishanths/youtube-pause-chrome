@@ -270,7 +270,7 @@ footer .spacer::before {
 
 	footer {
 		width: 280px;
-		padding: 2em;
+		padding: 0 0 2em 0;
 	}
 
 	footer .ion {
