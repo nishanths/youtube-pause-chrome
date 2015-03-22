@@ -218,6 +218,7 @@ footer .spacer::before {
 @media screen and (max-width: 640px) {
 	div.container {
 		width: 320px;
+		top: 10%;
 	}
 
 	footer {
@@ -261,7 +262,6 @@ footer .spacer::before {
 
 	div.container {
 		width: 300px;
-		top: 10%;
 	}
 
 	div.container a.button {
