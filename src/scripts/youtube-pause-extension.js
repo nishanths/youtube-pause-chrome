@@ -6,7 +6,6 @@
 ;(function() {
   var a = document.getElementsByTagName("body")[0];
   a.onkeydown = responder;
-  console.log("ffsdsdf");
   function responder(event) {
       // spacebar and not inside a the search or comments boxes
       if (event.which == 32 && !((event.target.className.indexOf("search-term") !== -1) || (event.target.className.indexOf("yt-simplebox-text") !== -1))) {
