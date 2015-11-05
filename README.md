@@ -20,7 +20,8 @@ Please let me know [here](https://github.com/nishanths/youtube-pause-chrome/issu
 
 ## Credits
 
-Icons by [Konrad Michalik](http://thenounproject.com/konradmichalik/).
+* [Contributors](https://github.com/nishanths/youtube-pause-chrome/graphs/contributors)
+* Icons by [Konrad Michalik](http://thenounproject.com/konradmichalik/).
 
 ## License
 
