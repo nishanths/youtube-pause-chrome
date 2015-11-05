@@ -1,7 +1,7 @@
 {
   "name"                    : "YouTube Pause",
   "short_name"              : "youtube-pause",
-  "version"                 : "1.0.0",
+  "version"                 : "1.1.0",
   "description"             : "No more scrolling down the page when you hit the spacebar on YouTube",
   "manifest_version"        : 2,
   "author"                  : "@nshanmugham",
