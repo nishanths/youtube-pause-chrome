@@ -8,7 +8,11 @@
   a.onkeydown = responder;
   function responder(event) {
       // spacebar and not inside a the search or comments boxes
-      if (event.which == 32 && ((event.target.className.indexOf("search-term") == -1) || (event.target.className.indexOf("yt-simplebox-text") == -1))) {
+      spacebar = (event.which == 32);
+      clsName = event.target.className;
+      textBox = (clsName.indexOf("search-term") >= 0
+                 || clsName.indexOf("yt-simplebox-text") >= 0);
+      if (spacebar && !textBox) {
       var states = { 1: "playing", 2: "paused" };
       var p = window.document.getElementById("movie_player");
       var s = p && p.getPlayerState && states[p.getPlayerState()];
@@ -23,7 +27,7 @@
 
       event.preventDefault();
       return false;
-    }
+      }
   }
 })();
 
