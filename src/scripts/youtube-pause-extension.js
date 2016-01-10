@@ -12,7 +12,8 @@
       clsName = event.target.className;
       textBox = (clsName.indexOf("search-term") >= 0
                  || clsName.indexOf("yt-simplebox-text") >= 0);
-      if (spacebar && !textBox) {
+      var videoPlayerSelected = (clsName.indexOf("html5-video-player") >= 0);
+      if (spacebar && !textBox && !videoPlayerSelected) {
       var states = { 1: "playing", 2: "paused" };
       var p = window.document.getElementById("movie_player");
       var s = p && p.getPlayerState && states[p.getPlayerState()];
