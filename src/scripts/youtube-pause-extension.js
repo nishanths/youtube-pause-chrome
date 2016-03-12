@@ -11,7 +11,7 @@
       spacebar = (event.which == 32);
       clsName = event.target.className;
       textBox = (clsName.indexOf("search-term") >= 0
-                 || clsName.indexOf("yt-simplebox-text") >= 0);
+                 || clsName.indexOf("simplebox-text") >= 0);
       var videoPlayerSelected = (clsName.indexOf("html5-video-player") >= 0);
       if (spacebar && !textBox && !videoPlayerSelected) {
       var states = { 1: "playing", 2: "paused" };
