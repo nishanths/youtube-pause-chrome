@@ -1,5 +1,7 @@
 ## [YouTube Pause](http://goo.gl/6ExxFO)
 
+__Update__: It's 2020, and spacebar to pause works correctly on youtube.com.
+
 No more scrolling down the page when you hit spacebar expecting to pause a YouTube video.
 
 [![MacDown logo](https://raw.githubusercontent.com/nishanths/youtube-pause-chrome/master/icons/icon128.png)](http://goo.gl/6ExxFO)
@@ -21,7 +23,7 @@ Please let me know [here](https://github.com/nishanths/youtube-pause-chrome/issu
 ## Credits
 
 * [Contributors](https://github.com/nishanths/youtube-pause-chrome/graphs/contributors)
-* Icons by [Konrad Michalik](http://thenounproject.com/konradmichalik/).
+* Icons: [Keyboard](https://thenounproject.com/konradmichalik/uploads/?i=91580) by [Konrad Michalik](http://thenounproject.com/konradmichalik/) from <a href="https://thenounproject.com">thenounproject.com</a>.
 
 ## License
 
